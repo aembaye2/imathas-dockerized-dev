@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>biology help</title>
+    </head>
+    <body>
+    <h1>Macro Library biology</h1>
+    A collection of biology helps. Currently in its beginning stages.
+    <BR>
+    <BR>Version 0.3 January 28, 2025
+    <BR><ul>
+    <li><a href="#bio_getcodonname">bio_getcodonname</a></li>
+    <li><a href="#bio_randcodon">bio_randcodon</a></li>
+    <li><a href="#bio_anticodon">bio_anticodon</a></li>
+    <li><a href="#bio_translation">bio_translation</a></li>
+    <li><a href="#bio_splitcodons">bio_splitcodons</a></li>
+    </ul>
+    <h3><a name="bio_getcodonname">bio_getcodonname</a></h3>
+    bio_getcodonname(codon)
+    <BR>looks up the name of the amino acid that is transcribed from a codon.
+    <BR><h3><a name="bio_randcodon">bio_randcodon</a></h3>
+        bio_randcodon()
+        <BR> outputs an array of a random codon
+        <BR> the output looks like: (codon, 3 letter abbreviation, full name)
+    <BR><h3><a name="bio_anticodon">bio_anticodon</a></h3>
+        bio_anticodon(string)
+        <BR> takes in a string of bases, and outputs a matching anticodon string.
+        <BR> (A &rarr; T, T &rarr; A, G &rarr; C, C &rarr; G, U &rarr; A)
+    <BR><h3><a name="bio_translation">bio_translation</a></h3>
+        bio_translation(string of DNA bases)
+        <BR> Takes in a string of DNA bases, and outputs an RNA string.
+        <BR> (A &rarr; U, T &rarr; A, G &rarr; C, C &rarr; G)
+    <BR><h3><a name="bio_splitcodons">bio_splitcodons</a></h3>
+        bio_splitcodons(string)
+        <BR> Splits a string, into an array made of sets of 3 codons.

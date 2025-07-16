@@ -1,0 +1,12 @@
+Your course has been created!
+For students to enroll in this course via direct login, you will need to provide them two things:
+
+The course ID: 1
+The enrollment key: aembaye50
+If you plan to integrate this course with your school's Learning Management System (LMS), here is the information you will need to set up a course-level configuration, since your school does not appear to have a school-wide LTI key and secret established.
+
+Key: LTIkey_1_1
+Secret: rAUsM9A3
+If you forget these later, you can find them by viewing your course settings.
+
+Enter the Course
